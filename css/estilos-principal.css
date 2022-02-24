@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    width: 100%;
+    
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+}
+
+nav .nav-inicio {
+    flex: 1;
+}
+
+nav .nav-space {
+    flex: 2;
+}
+
+nav .nav-logout {
+    flex: 1;
+}
+
+.body-wrapper{
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alquilar {
+    margin-top: 4rem;
+}
+
+.title-fondo-verde {
+    background-color: chartreuse;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#btn-proceder-pago {
+    background-color: rgb(83, 143, 23);
+    font-weight: bolder;
+    height: 30px;
+    width: 150px;
+}
+
+#btn-rentar {
+    background-color: chartreuse;
+    padding: 5px;
+    width: 8rem;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#btn-pagar {
+    background-color: rgb(83, 143, 23);
+    font-weight: bolder;
+    height: 30px;
+    width: 150px;
+}
