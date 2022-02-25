@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilosPago.css">
+    <title>Pago en línea</title>
+</head>
+<body style=" padding:0; margin:0; ">
+    <header style="height:75px; background-color:black; color: white; font-size:25px; line-height: 3;">
+        <a href="#" style="text-decoration: none; color: green;"><span>Pagina Principal</span></a>
+    </header>
+    <section id="text">
+        <H1>Metodo de pago </H1>
+    <h2>
+        <ul>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radioMetodo" id="metodoC" value="1" checked="">
+                    <img src="img/credito.png" id="imgCredit" width="100"> 
+                    <form id="formCredit">
+                        <div class="form-group owner">
+                            <label for="owner">Nombre del titular de la tarjeta</label>
+                            <input type="text" class="form-control" id="owner">
+                        </div>
+                        <div class="form-group CVV">
+                            <label for="cvv">Clave de seguridad CVV</label>
+                            <input type="text" class="form-control" id="cvv">
+                        </div>
+                        <div class="form-group" id="card-number-field">
+                            <label for="cardNumber">Numero de tarjeta</label>
+                            <input type="text" class="form-control" id="cardNumber">
+                        </div>
+                        <div class="form-group" id="expiration-date">
+                            <label>Fecha de expiracion</label>
+                            <select>
+                                <option value="01">Enero</option>
+                                <option value="02">Febrero </option>
+                                <option value="03">Marzo</option>
+                                <option value="04">Abril</option>
+                                <option value="05">Mayo</option>
+                                <option value="06">Junio</option>
+                                <option value="07">Julio</option>
+                                <option value="08">Agosto</option>
+                                <option value="09">Septiembre</option>
+                                <option value="10">Octubre</option>
+                                <option value="11">Noviembre</option>
+                                <option value="12">Diciembre</option>
+                            </select>
+                            <select>
+                                <option value="22"> 2022</option>
+                                <option value="23"> 2023</option>
+                                <option value="24"> 2024</option>
+                                <option value="25"> 2025</option>
+                                <option value="26"> 2026</option>
+                                <option value="27"> 2027</option>
+                                <option value="28"> 2028</option>
+                                <option value="29"> 2029</option>
+                                <option value="30"> 2030</option>
+                                <option value="31"> 2031</option>
+                                <option value="32"> 2032</option>
+                                <option value="33"> 33</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="pay-now">
+                            <button type="submit" class="btn btn-default" id="confirm-purchase">Pagar</button>
+                        </div>
+                    </form>
+                </label>
+            </div>
+        </ul>
+        <ul>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radioMetodo" id="metodoD" value="2" checked="checked">
+                    <img src="img/debito.png" id="imgDebit" width="100">
+                    <form id="formDebit">
+                        <div class="form-group owner">
+                            <label for="owner">Nombre del titular de la tarjeta</label>
+                            <input type="text" class="form-control" id="owner">
+                        </div>
+                        <div class="form-group CVV">
+                            <label for="cvv">Clave de seguridad CVV</label>
+                            <input type="text" class="form-control" id="cvv">
+                        </div>
+                        <div class="form-group" id="card-number-field">
+                            <label for="cardNumber">Numero de tarjeta</label>
+                            <input type="text" class="form-control" id="cardNumber">
+                        </div>
+                        <div class="form-group" id="expiration-date">
+                            <label>Fecha de expiracion</label>
+                            <select>
+                                <option value="01">Enero</option>
+                                <option value="02">Febrero </option>
+                                <option value="03">Marzo</option>
+                                <option value="04">Abril</option>
+                                <option value="05">Mayo</option>
+                                <option value="06">Junio</option>
+                                <option value="07">Julio</option>
+                                <option value="08">Agosto</option>
+                                <option value="09">Septiembre</option>
+                                <option value="10">Octubre</option>
+                                <option value="11">Noviembre</option>
+                                <option value="12">Diciembre</option>
+                            </select>
+                            <select>
+                                <option value="22"> 2022</option>
+                                <option value="23"> 2023</option>
+                                <option value="24"> 2024</option>
+                                <option value="25"> 2025</option>
+                                <option value="26"> 2026</option>
+                                <option value="27"> 2027</option>
+                                <option value="28"> 2028</option>
+                                <option value="29"> 2029</option>
+                                <option value="30"> 2030</option>
+                                <option value="31"> 2031</option>
+                                <option value="32"> 2032</option>
+                                <option value="33"> 33</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="pay-now">
+                            <button type="submit" class="btn btn-default" id="confirm-purchase">Pagar</button>
+                        </div>
+                    </form>
+                </label>
+            </div>
+            
+        </ul>
+        <ul>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radioMetodo" id="metodoP" value="3" checked="checked">
+                    <img src="img/paypal.png" id="imgPaypal" width="100">  
+                    <form id="formPaypal">
+                        <div class="form-group owner">
+                            <label for="owner">Corrreo electrónico</label>
+                            <input type="email" class="form-control" id="owner">
+                        </div>
+                        <div class="form-group password">
+                            <label for="password">Contraseña</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        
+                        <div class="form-group" id="pay-now">
+                            <button type="submit" class="btn btn-default" id="confirm-purchase">Pagar</button>
+                        </div>
+                    </form>
+                </label>
+            </div>
+            
+        </ul>
+    </h2>
+</section>
+    
+</body>
+</html>
