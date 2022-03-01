@@ -1,0 +1,58 @@
+body
+{
+     background-image: url('https://w.wallpaperkiss.com/wimg/s/172-1725382_small.jpg');
+}
+table
+{
+    width: 50%;
+    margin: 50px 50px;
+    background-color: #24303c;
+    border-radius: 4px;
+}
+h4
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+}
+input[type=email], input[type=password]
+{
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+}
+label
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.controls
+{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid green;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+input[type=submit]
+{
+    width: 50%;
+    background: green;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+    
+}
